@@ -20,7 +20,7 @@
   ) {
 
     uiGmapGoogleMapApiProvider.configure({
-      key: 'AIzaSyC1dmAqADx6Jsu2eeaWBMCIW2U1EW05B_c',
+      // key: 'AIzaSyByBTIEm1R1CZbd25uEfosgs3iwZWjQatM',
       v: '3.17',
       libraries: 'geometry,visualization'
     });
@@ -49,6 +49,9 @@
     $urlRouterProvider.otherwise('/');
 
     // enable HTML5 Mode for SEO
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false
+    });
   }
 })();

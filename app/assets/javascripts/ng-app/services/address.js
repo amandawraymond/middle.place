@@ -19,7 +19,7 @@ angular.module('myApp')
       that.error    = null;
       that.results  = data;
     }).error(function() {
-      that.error    = 'Something went wrong. Please check the address(es) and your internet connection.';
+      that.error    = 'Something went wrong. Please check the address(es) and your Internet connection.';
       that.results  = null;
     });
   };

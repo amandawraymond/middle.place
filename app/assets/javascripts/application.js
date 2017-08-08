@@ -17,9 +17,10 @@
 //= require angular-ui-router
 //= require angular-rails-templates
 //= require angular-sanitize
+//= require angular-simple-logger
+//= require underscore
 //= require ui-router-extras
-//= require lodash/dist/lodash.compat.js
-//= require angular-google-maps/dist/angular-google-maps.js
+//= require angular-google-maps
 //= require_tree ../templates
 //= require_tree .
 

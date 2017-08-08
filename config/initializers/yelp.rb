@@ -1,6 +1,6 @@
 Yelp.client.configure do |config|
-  config.consumer_key     = "hEeDZfJ0sHMwjr9VtBZxAQ"
-  config.consumer_secret  = "lwJbCODrp4cKaXCkp3xzb2sJxd8"
-  config.token            = "0TSdCMvbgpiPNpcWBINxJTUKbUedhxQB"
-  config.token_secret     = "X_tUqZIYnHA4tdPQmZhU1Vh-R30"
+  config.consumer_key     = "AmircKh17C3ce-NgWk1ljQ"
+  config.consumer_secret  = "Dp-xAEiGhsFmK2HQtWkFeQW9lwo"
+  config.token            = "Y1ks1aiM86BsoQERpaX5GtHZLzwml27H"
+  config.token_secret     = "jK-i_KyDjxqzGnlGUMa2tjmLMTc"
 end

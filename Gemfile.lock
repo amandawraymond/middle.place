@@ -1,5 +1,6 @@
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     actionmailer (4.1.6)
       actionpack (= 4.1.6)
@@ -84,6 +85,28 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.6)
       sprockets-rails (~> 2.0)
+    rails-assets-angular (1.5.11)
+    rails-assets-angular-animate (1.5.11)
+      rails-assets-angular (= 1.5.11)
+    rails-assets-angular-cookies (1.5.11)
+      rails-assets-angular (= 1.5.11)
+    rails-assets-angular-google-maps (2.3.2)
+      rails-assets-angular (>= 1.2, < 1.6)
+      rails-assets-angular-simple-logger (>= 0.0.1)
+      rails-assets-lodash (>= 3, < 5)
+    rails-assets-angular-resource (1.5.11)
+      rails-assets-angular (= 1.5.11)
+    rails-assets-angular-sanitize (1.5.11)
+      rails-assets-angular (= 1.5.11)
+    rails-assets-angular-simple-logger (0.1.7)
+      rails-assets-angular (>= 1.2, < 2)
+    rails-assets-angular-ui-router (0.2.18)
+      rails-assets-angular (>= 1.0.8, < 2)
+    rails-assets-lodash (4.17.4)
+    rails-assets-ui-router-extras (0.1.3)
+      rails-assets-angular (>= 1.2.0, < 2)
+      rails-assets-angular-ui-router (>= 0.2.8, < 0.3)
+    rails-assets-underscore (1.8.3)
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
@@ -148,6 +171,16 @@ DEPENDENCIES
   pg
   pry
   rails (= 4.1.6)
+  rails-assets-angular!
+  rails-assets-angular-animate!
+  rails-assets-angular-cookies!
+  rails-assets-angular-google-maps!
+  rails-assets-angular-resource!
+  rails-assets-angular-sanitize!
+  rails-assets-angular-simple-logger!
+  rails-assets-angular-ui-router!
+  rails-assets-ui-router-extras!
+  rails-assets-underscore!
   rails_12factor
   rails_serve_static_assets
   rails_stdout_logging
