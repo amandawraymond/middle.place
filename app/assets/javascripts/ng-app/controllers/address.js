@@ -103,7 +103,7 @@
           return address.address;
         });
         addressesService.generateCustomUrl(addressesOnly).success(function(data) {
-          addressesService.customUrl = 'http://www.middle.place/?l=' + data.key;
+          addressesService.customUrl = 'middle.place/?l=' + data.key;
           vm.customUrl = addressesService.customUrl;
         })
       }
